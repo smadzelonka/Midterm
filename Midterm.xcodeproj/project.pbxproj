@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A7546F3D29F8BB6A0006B65A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7546F3C29F8BB6A0006B65A /* main.cpp */; };
+		A7546F4529F8BBA10006B65A /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7546F4329F8BBA10006B65A /* Random.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A7546F3929F8BB6A0006B65A /* Midterm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Midterm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7546F3C29F8BB6A0006B65A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A7546F4329F8BBA10006B65A /* Random.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		A7546F4429F8BBA10006B65A /* Random.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		A7546F3B29F8BB6A0006B65A /* Midterm */ = {
 			isa = PBXGroup;
 			children = (
+				A7546F4429F8BBA10006B65A /* Random.hpp */,
+				A7546F4329F8BBA10006B65A /* Random.cpp */,
 				A7546F3C29F8BB6A0006B65A /* main.cpp */,
 			);
 			path = Midterm;
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7546F4529F8BBA10006B65A /* Random.cpp in Sources */,
 				A7546F3D29F8BB6A0006B65A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
